@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>M-softsln Official Website</title>
+	<meta charset="UTF-8">
+	<meta name="author" content="Muchiri Samuel Macharia">
+	<meta name="description" content="M-softsln is a free online software platform that transforms community members' software problems into software solutions.">
+	<meta name="keywords" content="platform">
+	<meta name="viewport" content="width=device-width,intial-scale="1.0">
+<link rel="stylesheet" type="text/css" href="button.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Playfair+Display&display=swap" rel="stylesheet">
+</head>
+<body>
+	<!--Navigation section-->
+	<header id="home">
+<nav class="intro">
+	<input type="checkbox" id="check">
+	<label for="check" class="checkbtn">
+	<i class="fa fa-bars"></i>
+	</label>
+	<label class="logo">M-softsln</label>
+	<ul>
+		<li><a class="active" href="#home">Home</a></li>
+		<li><a href="#about_us">About Us</a></li>	
+		<li><a href="#services">Services</a></li>
+		<li><a href="#solutions">Solutions</a></li>
+		<li><a href="#contact_us">Contact Us</a></li>
+	</ul>
+</nav>
+</header>
+<marquee scrollamount="5s" style="background-color:#38CFD9; color: #072A2D;"><em>Our Mantra: Transforming software problems into software solutions.</em></marquee>
+<!--Social Media Platforms Links-->
+<nav class="social">
+	<ul>
+		<li><a href="#"> <i class="fab fa-facebook-f"></i><span>Facebook</span></a></li>
+		<li><a href="#"> <i class="fab fa-twitter"></i><span> Twitter</span></a></li>
+		<li><a href="#"> <i class="fab fa-instagram"></i><span>Instagram</span></a></li>
+		<li><a href="#"> <i class="fab fa-linkedin-in"></i><span>Linkedin</span></a></li>
+		<li><a target="_blank" href="https://api.whatsapp.com/send?phone=254741279049&text=Welcome%20to%20M-softsln%20Consultancy%20Ltd.%20Thankyou%20for%20getting%20in%20touch%20with%20us.%20How%20may%20we%20help%20you%20?"> <i class="fab fa-whatsapp"></i><span>Chat with us</span></a></li>
+	</ul>
+</nav>
+<!--Welcome slideshows-->
+<main class="main_section">
+	<div class="wrapper1">
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="mashinani.jpg" alt="mashinani image">
+  <div class="text first">
+  	<br>
+  	<br>
+  	<h3>Home / M-softsln Consultancy Live Chat</h3>
+  </div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="tap2.jpg" alt="tapping">
+  <div class="text second">where your software solution is one tap away from us</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="society.jpeg" alt="software society">
+  <div class="text"></div>
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 3000); // Change image every 20 seconds
+}
+</script>
+</div>
+<!--ABOUT US SECTION-->
+<div id="about_us">
+	<div class="us_about">	<img src="about_us.jpg" alt="about_us image"></div>
+	<div class="story_wrap">
+		<div class="story">
+		<h1><span>Our Story</span></h1>
+		<p>The explosive growth in the availability of computer devices in our societies around the World even in some of the poorest, most remote communities was due to IT professionals focusing on technological advancement.But a team of unique software professionals noticed that as more and more people buy and use these devices they also potentially bring software hazards with them depending on how they are used.The team shifted its focus on dealing with these software problems plaguing community members.On this shift,in 2020 a free online software consultancy platform was born,<b>M-softsln</b>(Mashinani Software Solutions)</p>
+	</div>
+	<div class="core_wrap">
+		<div class="title1"><h1><span>Our Core Business</span></h1></div>
+		<div class="core">
+		<div class=" col mobile">
+			<img class="headache" src="mobile.png" alt="mobile">
+			<p>Providing recommendations to customer's mobile phone inevitable software problems since as community members keep their whole life(more or less) on a device you need that gadget to always function properly.</p>
+		</div>
+		<div class="col computer">
+			<img class="headache" src="computer.png" alt="computer">
+			<p>Providing authentic software solutions to common software problems at customers convenient times for softwares to meet stringent requirements with the increasing demand for functionality,quality,flexibility and cost-effectiveness.</p>
+		</div>
+		<div class="col community">
+			<img src="community.jpg" alt="community "> 
+			<p>Making the platform flexible,active,informed and approachable to enhance a potential communication channelwhich can be used for future integration and interconnection purposes hence tying the community to bind it to a single software-directed community hence boost efficiency and productivity.</p>
+			</div>
+	</div>
+</div>
+</div>
+	<div class="container5">
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+
+      <div class="item active">
+        <img class="imgslide2" src="motto.jpeg" alt="Los Angeles" >
+        <div class="carousel-caption">
+          <h3>Our Motto</h3>
+          <p>To provide authentic software solutions that will bring value and expenditiousness in your softwares, and we are continuously striving to be a platform YOU, the valued client, can trust and believe ad infinitum as we build a strong software-oriented community.</p>
+        </div>
+      </div>
+
+      <div class="item">
+        <img class="imgslide2" src="vision.jpeg" alt="Chicago" >
+        <div class="carousel-caption">
+          <h3>Our Vision</h3>
+          <p>To be the most embraced, referred to and recognized problem-solution software platform in the geo-sphere of its operation and to be a valued partner to our clients and asset to our community.</p>
+        </div>
+      </div>
+    
+      <div class="item">
+        <img class="imgslide2" src="corevalues.jpeg" alt="New York">
+        <div class="carousel-caption">
+          <h3>Core Values</h3>
+          <ul class="dreams">
+          	<li>Servant's Heart - The chief Golden rule is "service to man is service to God."</li>
+          	<li>Cost-Conscious - Keeping an eye on expenses for grassroot customers and providing smart, sustainable solutions.</li>
+          	<li>We are committed To Our Communities - We act as responsible corporate citizens by broadening our skills, experience and perspectives through software solutions in our software-driven communities.</li>
+          	
+          	<li>Embrace the adventure - Be curious, ask for help and demonstrate an ability to grow.Own and learn from problems. Bring joy and optimism to softwares.</li>
+          	<li>Wow Our Customers - Deliver world class software solutions. Create memorable connections. Be famous for friendly service.</li>
+          </ul>
+        </div>
+      </div>
+  
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+
+</div>
+<!--Services section-->
+<div id="services">
+	<div class="services_img">
+		<img src="services.jpeg" alt="services logo">
+	</div>	
+	<div class="system_software">
+	<div class="titles4">
+		<h3>System software</h3>
+		<P>These software sanction an environment or platform for the other software to easily work in. Hence, it is the reason why the system software is quite important in the management of the entire computer system.Few of the common system software example services we offer include:</P>
+	</div>
+	<div class="system_ss">
+		<div class="operating_system srv">
+			<div class="cimg"><img class="sers" src="Services/os.png" alt="operating system service"></div>
+			<h3 class="ser">Operating System</h3>
+			<p>Our elite teams deals with the different types of operating systems problems like embedded, real-time, distributed, single-user, multi-user, mobile, internet and much more. Full stack web development services develop apps to operate on a mobile operating system like Android and iOS. Some of the key examples of operating systems services we offer are as follows:</p> <div class="os">
+				<div class="os1">
+					<ul>
+						<li>MS Windows</li>
+						<li>macOS</li>
+						<li>Linux</li>
+						<li>iOS</li>
+					</ul>
+				</div>
+				<div class="os2">
+					<ul>
+						<li>Android </li>
+						<li>CentOS</li>
+						<li>Ubuntu</li>
+						<li>Unix</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="device_drivers srv">
+			<div class="cimg"><img class="sers" src="Services/drivers.jpeg" alt="drivers image"></div>
+			<h3>Device Drivers</h3>
+			<p>Our proficient  team offers services in different hardware devices which require a driver to connect to a system easily consisting of displays, printers, sound cards, hard disks, keyboard, and mice. Few of the examples of solutions we offer are: </p>
+			<div class="os">
+				<div class="os1">
+					<ul>
+						<li>BIOS Driver</li>
+						<li>Motherboard Drivers</li>
+						<li>Display Drivers</li>
+						<li>ROM Drivers</li>
+					</ul>
+				</div>
+				<div class="os2">
+					<ul>
+						<li>Printer Drivers </li>
+						<li>USB Drivers</li>
+						<li>Sound Card Driver</li>
+						<li>VGA Drivers</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="firmware srv">
+			<div class="cimg"><img class="sers" src="Services/fws.png" alt="firmware sample image"></div>
+			<h3>Firmware</h3>
+			<p>Our dedicated team offers solutions to these softwares which offer vital information regarding how a particular device interacts with different other hardware. Some of the examples of firmware services we recommend are:   </p>
+			<div class="os">
+				<div class="os1">
+					<ul>
+						<li>Computer Peripherals </li>
+						<li>Embedded Systems</li>
+						<li>UEFI</li>
+						<li>BIOS</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="utility srv">
+			<div class="cimg"><img class="sers" src="Services/US.png" alt="utility image"></div>
+			<h3>Utility</h3>
+			<p>Our competent team offers solutions to these softwares designed to assist in analysing, as well as optimizing, along with configuring and maintaining a given computer system.They provides support to the computer infrastructure. Software like disk cleanup and management tools, anti-viruses, defragmenters, compression tools etc. are all utility software. Some of the utility software services we offer are:</p>
+			<div class="os">
+				<div class="os1">
+					<ul>
+						<li>Norton Antivirus</li>
+						<li>McAfee Antivirus</li>
+						<li>WinRAR</li>
+						<li>WinZip</li>
+					</ul>
+				</div>
+				<div class="os2">
+					<ul>
+						<li>Piriform CCleaner s</li>
+						<li>Windows File Explorer</li>
+						<li>Directory Opus</li>
+						<li>Razer Cortex</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
+	<div class="application_software">
+		<div class="titles4">
+		<h3>Application software</h3>
+		<P>They are also popularly known as end-user programs or even productivity programs which assist the user in completing various tasks like conducting online research, making notes, designing graphics, maintaining accounts, carrying out calculations or even playing computer games. They essentially lie above the system software. They are actually used by the end-user as well as have specific functionality or tasks which they are designed to perform. These software are often developed through custom software development, based on the requirements of the users. There is a variety of application software. Some of them are:</P>
+	</div>
+	<div class="app_ss">
+	<div class="web_browsers apv">
+		<img class="sers" src="Services/web-browser.png" alt="web browser image">
+		<h3>Web Browsers</h3>
+		<p>We offer Web browser services which assist the users in locating as well as retrieving data well across the web. Some of the key web browsers we offer services to are:   </p>
+		<ul>
+						<li>Google Chrome</li>
+						<li>Mozilla Firefox</li>
+						<li>Internet Explorer</li>
+						<li>Opera UC Browser</li>
+						<li>Safari</li>
+
+					</ul>
+	</div>
+	<div class="multimedia apv">
+		<img class="sers" src="Services/ms.jpg" alt="multimedia images">
+		<h3>Multimedia Software</h3>
+		<p>We offer recommendations to these softwares which are able to play, create as well as record images, audio or even video files,utilized for animation, video editing, graphics as well as image editing.Some common multimedia software solutions we offer being:   </p>
+					<ul>
+						<li> Adobe Photoshop</li>
+						<li>Picasa </li>
+						<li>VLC Media Player</li>
+						<li>Windows Media Player</li>
+						<li>Windows Movie Maker</li>
+					</ul>
+	</div>
+	<div class="database apv">
+		<img class="sers" src="Services/dbms.png" alt="Database image">
+		<h3>Database Software</h3>
+		<p>It is used to create as well as manage a database and also known as Database Management System or in short, DBMS. Such software assists in the data organization. Some of the examples of DBMS are: MS Access FileMaker dBase Clipper  MySQL FoxPro</p>
+	</div>
+	<div class="word_processor apv">
+	<img class="sers" src="Services/wordp.jpg" alt="Word Processor image">
+	<h3>Word Processor</h3>
+	<p>Such applications are meant for documentation. It also assists in storing as well as formatting and even printing of the documents. Key examples of such software are: MS Word  Apple iWork-Pages Corel WordPerfect Google Docs</p>
+	</div>
+	</div>
+</div>
+</div>
+<!--Solutions section-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="jquery.timeago.js"></script>
+<div id="solutions"class="container3">
+	<div class="title">
+		<h1><span>SOLUTIONS</span></h1>
+		</div>
+	<div class="wrapper3">
+		<div class="wrapper6">
+			<h3>System Software </h3>
+			<div class="sssol">
+			<div class="CORRUPT sss">
+				<img src="System/CORRUPT.png" alt="corrupt file image">
+				<p>Corrupted File Errors</p>
+				<p class="answer"><a href="" target="_blank">Solution</a></p>
+				<em><p class="post"><i class="fa fa-clock-o" aria-hidden="true"></i>Posted <time class="timeago" datetime="31 July 2020 5:00"></time></p></em>
+			</div>
+			<div class="not_registered sss">
+				<img src="System/not_registered.png" alt=" Not_registered Android image">
+				<p>Not registered on network Android Errors</p>
+				<p class="answer"><a href="https://www.technobezz.com/fix-samsung-galaxy-registered-network/" target="_blank">Solution</a></p>
+				<em><p class="post"><i class="fa fa-clock-o" aria-hidden="true"></i>Posted <time class="timeago" datetime="01 August 2020 19:43"></time></p></em>
+
+			</div>
+			<div class="sd_card1 sss">
+				<img src="System/corrupt_sd_card.jpg" alt="Corrupt SD card image">
+				<p>Corrupt SD Card after Android Update</p>
+				<p class="answer"><a href="https://www.minitool.com/android-recovery/android-update-corrupted-sd-card.html" target="_blank">Solution</a></p>
+				<em><p class="post"><i class="fa fa-clock-o" aria-hidden="true"></i>Posted <time class="timeago" datetime="01 August 2020 20:05"></time></p></em>
+
+			</div>
+			<div class="hard_error1 sss">
+				<img src="System/unknown-hard-error.jpg" alt="Corrupt SD card image">
+				<p>Unknown Hard Drive Error in Laptops</p>
+				<p class="answer"><a href="https://www.remosoftware.com/info/how-to-fix-unknown-hard-error-on-windows-10#:~:text=For%20example%2C%20the%20unknown%20hard,system%20files%20or%20registry%20entries." target="_blank">Solution</a></p>
+				<em><p class="post"><i class="fa fa-clock-o" aria-hidden="true"></i>Posted <time class="timeago" datetime="01 August 2020 20:21"></time></p></em>
+			</div>
+		</div>
+	</div>
+		<div class="wrapper6">
+			<h3>Application Software</h3>
+		<div class="apsol">
+			<div class="sim_toolkit_error aps">
+				<img src="Application/sim_toolkit_error.jpg" alt="sim_toolkit_error image">
+				<p>Sim toolkit app error</p>
+				<p class="answer"><a href="https://www.thetech52.com/how-to-fix-error-in-application-sim-toolkit-error-in-android/" target="_blank">Solution</a></p>
+				<em><p class="post"><i class="fa fa-clock-o" aria-hidden="true"></i>Posted <time class="timeago" datetime="01 August 2020 20:39"></time></p></em>
+
+		</div>
+		<div class="youtube_error aps">
+				<img src="Application/youtube_error.jpg" alt="YouTube error image">
+				<p>YouTube App error</p>
+				<p class="answer"><a href="https://www.thetech52.com/how-to-fix-error-in-application-sim-toolkit-error-in-android/" target="_blank">Solution</a></p>
+				<em><p class="post"><i class="fa fa-clock-o" aria-hidden="true"></i>Posted <time class="timeago" datetime="01 August 2020 21:41"></time></p></em>
+
+		</div>
+		<div class="camera_error aps">
+				<img src="Application/camera_error.png" alt="camera_error image">
+				<p>Camera error</p>
+				<p class="answer"><a href="https://www.thetech52.com/how-to-fix-error-in-application-sim-toolkit-error-in-android/" target="_blank">Solution</a></p>
+				<em><p class="post"><i class="fa fa-clock-o" aria-hidden="true"></i>Posted <time class="timeago" datetime="01 August 2020 21:51"></time></p></em>
+
+		</div>
+		<div class="not_responding_process aps">
+				<img src="Application/not_responding_process.jpg" alt="sim_toolkit_error image">
+				<p>Not responding in process.com Android error</p>
+				<p class="answer"><a href="https://www.thetech52.com/how-to-fix-error-in-application-sim-toolkit-error-in-android/" target="_blank">Solution</a></p>
+				<em><p class="post"><i class="fa fa-clock-o" aria-hidden="true"></i>Posted <time class="timeago" datetime="01 August 2020 22:11"></time></p></em>
+
+		</div>
+		
+		<div class="app_not_installed_error aps">
+				<img src="Application/app_not_installed_error.jpg" alt="app_not_installed_error image">
+				<p>Application not installed error</p>
+				<p class="answer"><a href="https://www.thetech52.com/how-to-fix-error-in-application-sim-toolkit-error-in-android/" target="_blank">Solution</a></p>
+				<em><p class="post"><i class="fa fa-clock-o" aria-hidden="true"></i>Posted <time class="timeago" datetime="01 August 2020 22:22"></time></p></em>
+
+		</div>
+	</div>
+	</div>
+</div>
+</main>
+<!--Footer Section-->
+<div id="contact_us" class="main_footer">
+	<div class="footer_wrap">
+		<div class="logo">
+			<img src="logo.png" alt="Msoftsln Logo">
+		</div>
+		<div class="open_hrs">
+			<p  class="s1"><span class="material-icons same">access_time</span>Opening Hours</p>
+			<p>Weekdays: <time>8:00 Am-8:00 Pm</time></p>
+			<p>Weekend: <time>11:00 Am-5:00 Pm</time></p>
+		</div>
+		
+		<div class="location">
+			<p  class="s1"><span class="material-icons same">location_on</span>Location</p>
+			<address>
+				<p>P.O BOX 10100-1359</p>
+				<P>Baraton Center, Kenya</P>
+			</address>
+		</div>
+
+		<div class="contact_us">
+		<p  class="s1"><i class="fa fa-address-book" aria-hidden="true"></i>Contact Us</p>
+		<ul>
+			<li><span class="material-icons">call</span><a href="tel:+254741279049" target="_blank">Phone : +254741279049</a></li>
+			<li><i class="fa fa-envelope" aria-hidden="true"></i><a href="mailto:Msoftsln@gmail.com?subject=Software Assistance" target="_blank">Email : Msoftsln@gmail.com</a></li>
+			<!--<li><span class="material-icons">textsms</span><a href="sms:+254741279049&body=Please%20offer%20me%20recommendations%20on%20solving%20a%20software%20issue%20of%20..." target="_blank">SMS : +254741279049</a></li>-->
+		</ul>
+		</div>
+			</div>
+	
+	<div class="designer">
+		<ul class="M-softsln_privacy">
+			<li>&copy; M-softsln Ltd 2020</li>
+			<li><a href="Privacy Policy.pdf" target="_blank" download>Privacy Policy </a></li>
+			<li><a href="Terms and Conditions.pdf" target="_blank" download>Terms &amp; Conditions</a></li>
+			<li><em>Design by Samuel Macharia</em> - All Rights Reserved</li>
+		</ul>
+	</div>
+</div>
+
+</body>
+</html>
